@@ -1,5 +1,6 @@
 n = eval(input("Enter an Integer"))
-for i in range(5):
+for i in range(n):
     for j in range(i):
-        print("*")
-    print("\n")
+        print("*",end="")
+    print("")
+    
