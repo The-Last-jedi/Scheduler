@@ -4,22 +4,14 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-div.gallery:hover{
-    border: 1px solid #080101;
-}
-
-div.gallery img{
-    width: 10%;
-    height:auto;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
   h1 {
     color: rgb(226, 225, 233);
     text-align: center;
   }
-  
+  .image{
+      justify-content: center;
+      display: flex;
+  }
   p {    
     font-family: verdana;
     font-size: 20px;
