@@ -1,6 +1,8 @@
 body {
     background-image: url(nightBG.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 div.gallery:hover{
     border: 1px solid #080101;
