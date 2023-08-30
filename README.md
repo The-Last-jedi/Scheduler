@@ -1,6 +1,3 @@
-
-# Scheduler
-=======
 # Scheduler
 Requirements:-
 1. AutoSchedule
