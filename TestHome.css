@@ -4,13 +4,14 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+.img{
+     display: flex;
+                justify-content: center;
+                align-content: center;
+}
   h1 {
     color: rgb(226, 225, 233);
     text-align: center;
-  }
-  .image{
-      justify-content: center;
-      display: flex;
   }
   p {    
     font-family: verdana;
