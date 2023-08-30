@@ -1,0 +1,26 @@
+body {
+    background-image: url(nightBG.jpg);
+    background-size: cover;
+}
+div.gallery:hover{
+    border: 1px solid #080101;
+}
+
+div.gallery img{
+    width: 10%;
+    height:auto;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+  h1 {
+    color: rgb(226, 225, 233);
+    text-align: center;
+  }
+  
+  p {    
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(232, 243, 239);
+    text-align: center;
+  }
