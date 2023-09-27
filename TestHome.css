@@ -1,27 +1,76 @@
 body {
-     background-color: black;
-     background-image: url(nightBG.jpg);
-    backdrop-filter: brightness(50%);
+
+    background-color: #ffffff;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
+    padding: 0px;
+    margin: auto;
+    overflow: auto;
 }
+
 .img{
     display: flex;
-    justify-content: center;
-    align-content: center;
-
-
+    justify-content: end;
+    align-content: center ;
+    padding: 4px;
+    margin: 4px;
+    float: left;
+    top:8px;
+    right:6px;
+    position: fixed;
 }
   h1 {
-    color: rgb(226, 225, 233);
+    color: rgb(0, 0, 0);
     text-align: center;
+      padding: 20px;
+      padding-bottom: 20px;
   }
   p {    
     font-family: verdana;
     font-size: 20px;
-    color: rgb(232, 243, 239);
-    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+      padding: 10px;
+
   }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    top:0;
+    position: sticky;
+}
+
+li {
+  float: left;
+}
+liimg{
+    float: right;
+
+
+}
+liimg a{
+    display: flex;
+    margin: auto;
+
+}
+liimg a:hover{
+    background-color: #111  ;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 14px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
